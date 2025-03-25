@@ -4,4 +4,5 @@
 		String strArray [] = str.split(";");
 		List<String> strList = Stream.of(strArray).collect(Collectors.toList());
 		System.out.println(strList);
+		System.out.println(strList);
 	}
